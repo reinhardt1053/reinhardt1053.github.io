@@ -11,15 +11,11 @@
 
   
 	
-<nav class="nav">
-  <a class="home icon ss-standard ss-home" href="/" title="Home"></a>
-</nav>
-
 <section class="main" role="main">
 <article class="article">
   <header class="article-header">
     <time class="article-date">Linux</time>
-    <h1 class="article-title">  Accedere ad un input device senza avere i privilegi di root</h1>
+    <h1 class="article-title"><a href="/">  Accedere ad un input device senza avere i privilegi di root</a></h1>
   </header>
   <div class="article-body">
     <p>L’accesso agli input device di linux (<em>/dev/input/eventX</em>) è consentito solo all’utente root. C’è una buona ragione all’origine di questa limitazione: sulla macchina da cui sto scrivendo, se apro in lettura, per esempio, il file <em>/dev/input/event0</em> riceverò dal kernel i codici associati a tutti i tasti digitati. Infatti, in questo momento /dev/input/event0 è l’handler a cui il sistema operativo ha associato la mia tasteria. 
